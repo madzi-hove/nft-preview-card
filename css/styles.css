@@ -15,16 +15,31 @@ body {
      align-items: center;
      margin-top: 50px;
      max-width: 350px;
-     min-height: 70vh;
      background-color:hsl(216, 50%, 16%);
      border-radius: 15px;
      font-family: 'Outfit', sans-serif;
+     box-shadow: 15px 20px 10px hsl(217, 54%, 8%), -15px 20px 10px hsl(217, 54%, 8%),
+     45px 45px 10px hsl(217, 54%, 10%), -45px 45px 10px hsl(217, 54%, 10%), 45px -15px 10px hsl(217, 54%, 10%), -45px -15px 10px hsl(217, 54%, 10%);
 }
 /* image */
-.img {
+.image-container {
+     background: cyan url("../images/icon-view.svg") no-repeat;
+     background-position: center;
      margin-top: 15px;
-     border-radius: 15px;
      width: 90%;
+     border-radius: 15px;
+}
+.img {
+     border-radius: 15px;
+     margin-bottom: -4px;
+     width: 100%;
+     
+}
+
+.img:hover {
+     opacity: 0.5;
+     background-color: cyan;
+     cursor: pointer;
 }
 /* end of image section */
 /* card text */
@@ -34,6 +49,11 @@ h1 {
      font-size: 25px;
      margin-bottom: 8px;
      
+}
+
+h1:hover {
+     color: hsl(178, 100%, 50%);
+     cursor:pointer;
 }
 
 p {
@@ -103,27 +123,39 @@ hr {
 }
 
 .artist-info p {
-     padding-bottom: 15px;
+     padding-bottom: 15px;align-self: center;
 }
 /* artist avatar */
 .avatar {
      width: 30px;
      height: 30px;
      margin-left: 20px;
+     margin-bottom: 10px;
      border: 2px solid hsl(0, 0%, 100%);
      border-radius: 50%;
+     
 }
 /* end of artist avatar */
 .artist-name {
      color: hsl(0, 0%, 100%);
 }
+
+.artist-name:hover {
+     color: hsl(178, 100%, 50%);
+     cursor:pointer;
+}
 /* end of artist info */
 /* end of card text */
 /* end of card section */
 .attribution {
+     display: flex;
      font-size: 11px;
       text-align: center; 
     }
+
+.attribution p {
+     font-size: 11px;
+}
 
 
 .attribution a {
