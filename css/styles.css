@@ -1,0 +1,131 @@
+/* beginning of body */
+body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: hsl(217, 54%, 11%);
+     min-width: 300px;
+}
+
+
+/* card */
+.card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 50px;
+     max-width: 350px;
+     min-height: 70vh;
+     background-color:hsl(216, 50%, 16%);
+     border-radius: 15px;
+     font-family: 'Outfit', sans-serif;
+}
+/* image */
+.img {
+     margin-top: 15px;
+     border-radius: 15px;
+     width: 90%;
+}
+/* end of image section */
+/* card text */
+h1 {
+     margin-left: 20px;
+     color: hsl(0, 0%, 100%);
+     font-size: 25px;
+     margin-bottom: 8px;
+     
+}
+
+p {
+     margin-left: 20px;
+     font-size: 18px;
+     /* font-weight: bold; */
+     color: hsl(215, 51%, 70%);
+}
+
+hr {
+     width: 87%;
+     border: 1px solid hsl(215, 32%, 27%);
+     margin-inline-start: 20px
+}
+
+.card-text {
+     display: flex;
+     flex-direction: column;
+}
+
+.card-text:nth-child(3) {
+     margin-top: 8px;
+}
+/* pricing */
+.pricing {
+     display: flex;
+     justify-content: space-between;
+     /* margin-right: 20px; */
+}
+
+
+
+.value {
+     display: flex;
+     margin-left: 20px;
+     align-items: center;
+}
+
+.ethereum-icon {
+     height: 30px;
+}
+
+.value p {
+     margin-left: 5px;
+     color: hsl(178, 100%, 50%)
+}
+
+
+.deal-days-left {
+     display: flex;
+     margin-right: 20px;
+     align-items: center;
+}
+
+.clock-icon {
+     height: 30px;
+}
+
+.deal-days-left p {
+     margin-left: 5px;
+}
+/* end of pricing */
+/* artist info */
+.artist-info {
+     display: flex;
+     align-items: center;
+}
+
+.artist-info p {
+     padding-bottom: 15px;
+}
+/* artist avatar */
+.avatar {
+     width: 30px;
+     height: 30px;
+     margin-left: 20px;
+     border: 2px solid hsl(0, 0%, 100%);
+     border-radius: 50%;
+}
+/* end of artist avatar */
+.artist-name {
+     color: hsl(0, 0%, 100%);
+}
+/* end of artist info */
+/* end of card text */
+/* end of card section */
+.attribution {
+     font-size: 11px;
+      text-align: center; 
+    }
+
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+    }
